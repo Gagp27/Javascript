@@ -1,0 +1,49 @@
+.login {
+    padding-top: 50px;
+}
+.login .upTask {
+    background: linear-gradient(to right, #0891B2 0%, #5bd9f8 100%);
+    color: transparent;
+    background-clip: text;
+    text-align: center;
+    font-size: 70px;
+}
+@media (min-width: 768px) {
+    .login .upTask {
+        font-size: 100px;
+    }
+}
+
+.login input[type=submit] {
+    background-color: #0891B2;
+    padding: 1.5rem 4rem;
+    color: #FFFFFF;
+    font-size: 1.6rem;
+    display: inline-block;
+    font-weight: 700;
+    border: none;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+    text-align: center;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .login input[type=submit] {
+        width: auto;
+    }
+}
+.login input[type=submit]:hover {
+    background-color: #066981;
+    cursor: pointer;
+}
+
+.login input[type=submit]:disabled {
+    cursor: not-allowed;
+    background-color: #0891B2;
+}
+
+.login .actions a {
+    color: #0891B2;
+    text-decoration: underline;
+}

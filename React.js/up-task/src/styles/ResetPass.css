@@ -1,0 +1,47 @@
+.reset {
+    margin-top: 5rem;
+}
+.reset .upTask {
+    background: linear-gradient(to right, #2563EB 0%, #b1c7f8 100%);
+    color: transparent;
+    background-clip: text;
+    text-align: center;
+    font-size: 70px;
+}
+@media (min-width: 768px) {
+    .reset .upTask {
+        font-size: 100px;
+    }
+}
+.reset input[type=submit] {
+    background-color: #2563EB;
+    padding: 1.5rem 4rem;
+    color: #FFFFFF;
+    font-size: 1.6rem;
+    font-weight: 700;
+    border: none;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+@media (min-width: 768px) {
+    .reset input[type=submit] {
+        width: auto;
+    }
+}
+.reset input[type=submit]:hover {
+    background-color: #134cca;
+    cursor: pointer;
+}
+
+.reset input[type=submit]:disabled {
+    background-color: #2563EB;
+    cursor: not-allowed;
+}
+
+.reset .actions a {
+    color: #2563EB;
+    text-decoration: underline;
+}

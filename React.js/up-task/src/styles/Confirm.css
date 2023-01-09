@@ -1,0 +1,50 @@
+.confirm {
+    margin-top: 5rem;
+}
+.confirm .upTask {
+    background: linear-gradient(to right, #4338CA 0%, #b5b1ea 100%);
+    color: transparent;
+    background-clip: text;
+    text-align: center;
+    font-size: 70px;
+}
+@media (min-width: 768px) {
+    .confirm .upTask {
+        font-size: 100px;
+    }
+}
+.confirm .button {
+    background-color: #4338CA;
+    padding: 1.5rem 4rem;
+    color: #FFFFFF;
+    font-size: 1.6rem;
+    font-weight: 700;
+    border: none;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+@media (min-width: 768px) {
+    .confirm .button {
+        width: 30%;
+    }
+}
+.confirm .button:hover {
+    background-color: #352ca3;
+    cursor: pointer;
+}
+.confirm .actions {
+    justify-content: center;
+}
+.confirm .actions a {
+    color: #FFFFFF;
+    background-color: #4338CA;
+    padding: 2rem 3rem;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.confirm .actions a:hover {
+    background-color: #1b1653;
+}

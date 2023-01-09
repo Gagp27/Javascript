@@ -1,0 +1,52 @@
+.register {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.register .upTask {
+    background: linear-gradient(to right, #7C3AED 0%, #d9c6fa 100%);
+    color: transparent;
+    background-clip: text;
+    text-align: center;
+    font-size: 70px;
+}
+
+@media (min-width: 768px) {
+    .register .upTask {
+        font-size: 100px;
+    }
+}
+.register input[type=submit] {
+    background-color: #7C3AED;
+    padding: 1.5rem 4rem;
+    color: #FFFFFF;
+    font-size: 1.6rem;
+    display: inline-block;
+    font-weight: 700;
+    border: none;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+    text-align: center;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .register input[type=submit] {
+        width: 35%;
+    }
+}
+
+.register input[type=submit]:hover {
+    background-color: #5f14e0;
+    cursor: pointer;
+}
+
+.register input[type=submit]:disabled {
+    cursor: not-allowed;
+    background-color: #7C3AED;
+}
+
+.register .actions a {
+    color: #7C3AED;
+    text-decoration: underline;
+}

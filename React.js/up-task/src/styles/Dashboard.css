@@ -1,0 +1,4 @@
+.dashboard input[type=submit]:disabled {
+    cursor: not-allowed !important;
+    background-color: #4338CA !important;
+}

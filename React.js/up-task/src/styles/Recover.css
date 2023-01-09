@@ -1,0 +1,52 @@
+.recover {
+    margin-top: 5rem;
+}
+
+.recover .upTask {
+    background: linear-gradient(to right, #DB2777 0%, #f1aaca 100%);
+    color: transparent;
+    background-clip: text;
+    text-align: center;
+    font-size: 70px;
+}
+
+@media (min-width: 768px) {
+    .recover .upTask {
+        font-size: 100px;
+    }
+}
+
+.recover input[type=submit] {
+    background-color: #DB2777;
+    padding: 1.5rem 4rem;
+    color: #FFFFFF;
+    font-size: 1.6rem;
+    display: inline-block;
+    font-weight: 700;
+    border: none;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+    text-align: center;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .recover input[type=submit] {
+        width: 35%;
+    }
+}
+
+.recover input[type=submit]:hover {
+    background-color: #b11e5f;
+    cursor: pointer;
+}
+
+.recover input[type=submit]:disabled {
+    cursor: not-allowed;
+    background-color: #DB2777;
+}
+
+.recover .actions a {
+    color: #DB2777;
+    text-decoration: underline;
+}

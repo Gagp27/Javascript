@@ -1,0 +1,75 @@
+.form {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.form .field {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+    .form .field {
+        flex-direction: row;
+    }
+}
+
+.d-fields {
+    display: flex;
+    flex-direction: column;
+}
+
+.form label {
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+    .form label {
+        flex: 0 0 10rem;
+        margin-bottom: 0;
+        display: grid;
+        align-items: center;
+    }
+}
+
+.form .field .inputs {
+    width: 100%;
+}
+
+.form input {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.3rem;
+    border: none;
+    background-color: #d8dadf;
+}
+
+.form input:disabled {
+    cursor: not-allowed;
+}
+
+.field-error {
+    color: rgb(169, 0, 0);
+    border: 2px solid rgb(169, 0, 0) !important;
+}
+
+.field-error::placeholder {
+    color: rgb(169, 0, 0);
+}
+
+.field-error-label {
+    font-weight: bolder;
+    color: rgb(169, 0, 0);
+}
+
+.field-error-message {
+    text-align: end;
+    font-weight: bolder;
+    margin-top: 0.75rem;
+    margin-bottom: 0;
+    color: rgb(169, 0, 0);
+    font-size: 1.25rem;
+}

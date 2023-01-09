@@ -1,0 +1,17 @@
+.alerts {
+    padding: 1rem 1rem 2rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+.alerts.error {
+    background-color: #ffdcdc;
+    border-left: 0.5rem solid rgb(169, 0, 0);
+    color: rgb(169, 0, 0);
+}
+.alerts.success {
+    background-color: #abffab;
+    border-left: 0.5rem solid rgb(0, 120, 0);
+    color: rgb(0, 120, 0);
+}

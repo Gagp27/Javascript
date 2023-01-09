@@ -1,0 +1,38 @@
+.messages {
+    margin-top: 5rem;
+}
+.messages .upTask {
+    background: linear-gradient(to right, #F59E0B 0%, #fbd89e 100%);
+    color: transparent;
+    background-clip: text;
+    text-align: center;
+    font-size: 70px;
+}
+@media (min-width: 768px) {
+    .messages .upTask {
+        font-size: 100px;
+    }
+}
+
+.messages .button {
+    background-color: #F59E0B;
+    padding: 1.5rem 4rem;
+    color: #FFFFFF;
+    font-size: 1.6rem;
+    font-weight: 700;
+    border: none;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+@media (min-width: 768px) {
+    .messages .button {
+        width: 30%;
+    }
+}
+.messages .button:hover {
+    background-color: #dd8e09;
+    cursor: pointer;
+}
