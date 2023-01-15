@@ -1,19 +1,18 @@
-# React (Up-Task)
+# React (vet-app)
 
 ## This project include
 >+ React
 >+ Typescript
 >+ Context
 >+ Custom hooks
->+ CSS
+>+ Tailwind css
 >+ consume JSON API
 
 ## Backend repository
 >### Spring boot
 >```
->https://github.com/Gagp27/Java/tree/master/Spring-Boot/up-task
+>https://github.com/Gagp27/Java/tree/master/Spring-Boot/vet-app
 >```
 >### Node.js
 >```
->https://github.com/Gagp27/Javascript/tree/master/Node.js/up-task
 >```
