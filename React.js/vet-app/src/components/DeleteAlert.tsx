@@ -25,11 +25,10 @@ const DeleteAlert: React.FC<Props> = ({setShowModal, patient}) => {
 	const { deletePatient } = useDashboard();
 
 	const deleteHandler = async (response: boolean) => {
-		console.log(response);
 
 		if(response) {
-			const result = await deletePatient(patient.id);
-			console.log(result);
+			console.log(patient.id);
+			await deletePatient(patient.id);
 		}
 
 		setShowModal(false);
